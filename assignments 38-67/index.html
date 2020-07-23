@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TASK#1 -->
+    <div onclick="alert('')">
+      <h3>TASK#1</h3>
+      <a href="#">
+        click mee
+      </a>
+    </div>
+    <!-- TASK#2 -->
+    <div>
+      <h3>TASK#2</h3>
+      <img
+        src="images/samsung.png"
+        alt="samsung"
+        height="80px"
+        onclick="alert('Thank your for buying phone from us')"
+      />
+      <img
+        src="images/onePlus.jpg"
+        alt="one plus"
+        height="80px"
+        onclick="alert('Thank your for buying phone from us')"
+      />
+      <img
+        src="images/iphone.jpg"
+        alt="ipone"
+        height="80px"
+        onclick="alert('Thank your for buying phone from us')"
+      />
+    </div>
+    <!-- TASK#3 -->
+    <div>
+      <h3>TASK#3</h3>
+      <table>
+        <tr>
+          <th>Index</th>
+          <th>Name</th>
+          <th>Class</th>
+        </tr>
+        <tr id="row1">
+          <td>0</td>
+          <td>john</td>
+          <td>8</td>
+          <td><button onclick="Row1()">Delete</button></td>
+          <td><button onclick="edit()">Edit</button></td>
+        </tr>
+
+        <tr id="row2">
+          <td>1</td>
+          <td>Doe</td>
+          <td>10</td>
+          <td><button onclick="Row2()">Delete</button></td>
+          <td><button onclick="edit()">Edit</button></td>
+        </tr>
+        <tr id="row3">
+          <td>2</td>
+          <td>Riki</td>
+          <td>10</td>
+          <td><button onclick="Row3()">Delete</button></td>
+          <td><button onclick="edit()">Edit</button></td>
+        </tr>
+      </table>
+    </div>
+    <!-- TSAK#4 -->
+    <div>
+      <h3>TASK#4</h3>
+      <img
+        id="img"
+        src="images/onePlus.jpg"
+        alt="mobile"
+        height="150px"
+        onmouseover="chngeImg()"
+        onmouseout="prevImg()"
+      />
+    </div>
+    <!-- TASK#5 -->
+    <div>
+      <h3>TASK#5</h3>
+      <p id="counter">1</p>
+      <button onclick="incrementCounter()">Increment Counter</button>
+      <button onclick="decrementCounter()">Decrement Counter</button>
+    </div>
+    <!-- 49 to 52 -->
+    <!-- task#1 -->
+    <div>
+      <h3>Show form Data</h3>
+      <form action="javascript:void(0)" onsubmit="showData()">
+        Name: <input type="text" name="name" id="name" /><br />
+        Email: <input type="email" name="email" id="email" /><br />
+        Password<input type="password" name="pssword" id="password" /><br />
+        <button>Submit</button>
+      </form>
+      <p id="data"></p>
+    </div>
+    <!-- task#2 -->
+    <div>
+      <p id="more">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, sed!
+        Necessitatibus, excepturi maiores quos,<a
+          href="#"
+          onclick="showDetails()"
+          >Show more..</a
+        >
+      </p>
+    </div>
+    <!-- task#3 -->
+    <div>
+      <h3>TASK#3</h3>
+      <h3>Modified above</h3>
+    </div>
+
+    <!-- CHP 58 to 57 -->
+    <!-- #1 -->
+    <div> <h1>DOM</h1> <h3>TASK#1</h3> <div id="form-content" class="content"> <label for="”first-name”">First Name</label> <input type="text" id="first-name"/> <label for="last-name">Last Name</label> <input type="text" id="last-name"/> <label for="email">Email</label> <input type="text" id="Email"/> </div><div id="main-content" class="content"> <p class="render">First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render">Email : alexbank@example.com</p><p class="render">Country : Pakistan</p><p class="render">contact : +92 300 1234567</p></div></div>
+    <div>
+      <h3>TASK#2</h3>
+      <p id="1"></p>
+      <p id="2"></p>
+      <p id="3"></p>
+      <p id="4"></p>
+      <p id="5"></p>
+      <p id="6"></p>
+      <p id="7"></p>
+      <p id="8"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
